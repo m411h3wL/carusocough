@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Air Pathways</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+  .anatomy-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+  }
+
+  .circle {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #000;
+  }
+
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+  }
+
+  .anatomy-header h1 { margin: 0; }
+
+  .section {
+    border-bottom: 1px solid #000;
+    padding: 15px 0;
+  }
+
+  .section h2 { margin-bottom: 12px; }
+
+  .diagram-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .diagram-layout img {
+    width: 260px;
+    flex-shrink: 0;
+  }
+
+  .legend {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .legend li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+
+  .swatch {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+  }
+
+  .swatch.blue   { background: #3a8fd9; }
+  .swatch.orange { background: #e8811a; }
+  .swatch.purple { background: #8b5cf6; }
+  .swatch.green  { background: #3daa4b; }
+  .swatch.red    { background: #d63030; }
+  .swatch.pink   { background: #f4a0b0; }
+  .swatch.yellow { background: #e8c41a; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="../index.html">Record</a>
+  <a href="../blog.html">Blog</a>
+  <a href="../analysis.html">Research Analysis</a>
+  <a href="../anatomy.html">Anatomy</a>
+  <a href="../exercise_vocabulary.html">Exercise Vocabulary</a>
+  <a href="../legendary_singers.html">Legendary Singers</a>
+</nav>
+<main>
+  <div class="anatomy-header">
+    <div class="circle">
+      <img src="/images/airpathways.png" alt="Air Pathways">
+    </div>
+    <h1>Air Pathways</h1>
+  </div>
+
+  <div class="section">
+    <h2>Diagram</h2>
+    <div class="diagram-layout">
+      <img src="/images/airpathways.png" alt="Air Pathways Diagram">
+      <ul class="legend">
+        <li>
+          <span class="swatch blue"></span>
+          <span>Trachea (windpipe) and the two main bronchi leading into the lungs. This is the main airway carrying air from the lungs toward the voice.</span>
+        </li>
+        <li>
+          <span class="swatch orange"></span>
+          <span>Larynx (voice box). This contains the vocal folds, where airflow becomes sound.</span>
+        </li>
+        <li>
+          <span class="swatch purple"></span>
+          <span>Pharynx (throat). Think of it as the central junction where the airway connects to the nose and mouth.</span>
+        </li>
+        <li>
+          <span class="swatch green"></span>
+          <span>Nasal cavity. Air (or sound, depending on the soft palate) can travel through this passage, contributing to nasal resonance.</span>
+        </li>
+        <li>
+          <span class="swatch red"></span>
+          <span>Oral cavity (mouth). This is where the tongue, lips, jaw, and palate shape vowels and consonants before the sound exits.</span>
+        </li>
+        <li>
+          <span class="swatch pink"></span>
+          <span>Lungs (the source of the airflow).</span>
+        </li>
+        <li>
+          <span class="swatch yellow"></span>
+          <span>Diaphragm, the muscle that generates the air pressure for singing.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Oropharynx &amp; Nasopharynx</h2>
+    <img src="/images/nasoandoropharynx.png" alt="Oropharynx and Nasopharynx" style="width: 480px; display: block;">
+  </div>
+
+  <div class="section">
+    <h2>Notes</h2>
+    <p>Placeholder — personal study notes go here.</p>
+  </div>
+</main>
+</body>
+</html>
