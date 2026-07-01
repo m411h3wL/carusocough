@@ -1,6 +1,6 @@
 # Caruso Cough — Vocal Trainer
 
-A web-based vocal training app inspired by Enrico Caruso. Built with Node.js and Express.
+A web-based vocal training blog/app.
 
 ## Features
 
